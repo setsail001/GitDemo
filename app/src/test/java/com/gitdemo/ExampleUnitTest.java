@@ -13,5 +13,8 @@ public class ExampleUnitTest {
     @Test
     public void addition_isCorrect() throws Exception {
         assertEquals(4, 2 + 2);
+
+        System.out.printf("============元宝测试20161104===============");
+
     }
 }
