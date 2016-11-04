@@ -8,16 +8,11 @@ import java.util.Iterator;
 import java.util.StringTokenizer;
 
 public class MainActivity extends AppCompatActivity {
-    String
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-    }
-
-    public static MainActivity getInstance() {
-        return this;
     }
 
     private void initView(String name) {
